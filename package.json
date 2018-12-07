@@ -1,0 +1,20 @@
+{
+  "name": "veryeasy-webdesign",
+  "version": "1.0.0",
+  "description": "いちばんやさしい Webデザイン 入門教室 書籍執筆用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "textlint",
+    "fix": "textlint --fix"
+  },
+  "author": "Miki Ishijima",
+  "license": "ISC",
+  "devDependencies": {
+    "prh": "^5.4.3",
+    "textlint": "^11.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.0",
+    "textlint-rule-prh": "^5.2.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
